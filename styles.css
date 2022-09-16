@@ -20,7 +20,7 @@ h2 {
 }
 
 .content-container {
-   margin-top: 20vh;
+   margin-top: 2vh;
 }
 
 .info-container {
@@ -143,5 +143,12 @@ h2 {
    }
    100% {
       background-color: #8b25bb;
+   }
+}
+
+@media only screen and (min-width: 600px) {
+   /* For desktop: */
+   .content-container {
+      margin-top: 20vh;
    }
 }
